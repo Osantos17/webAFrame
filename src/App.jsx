@@ -6,13 +6,17 @@ const LandingPage = () => {
       {/* Header */}
       <header className=" text-white py-4">
         <div className="container mx-auto text-center">
-          <h1 className="text-3xl font-bold">A-Frame</h1>
+          <img 
+            src="./src/assets/Whitelogo.png" 
+            className="my-4 mx-auto w-28 h-28" 
+            alt="White Logo"
+          />
           <p className="text-lg mt-2">Accurate surf forecasts tailored to your location.</p>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto mt-8 px-4">
+      <main className="container mx-auto mt-4 px-4">
         {/* App Info Section */}
         <section className="mb-12">
           <h2 className="text-2xl text-white font-bold mb-4">About</h2>
@@ -35,6 +39,28 @@ const LandingPage = () => {
             For any questions, contact us at <a href="mailto:Aframesurfing@gmail.com" className="text-blue-500 underline">Aframesurfing@gmail.com</a>.
           </p>
         </section>
+        <div className="flex flex-row justify-between mt-6 mx-12">
+          <img 
+            src="./src/assets/map.png" 
+            className="w-40" 
+            alt="map"
+          />
+          <img 
+            src="./src/assets/local.png" 
+            className="w-40" 
+            alt="local"
+          />
+          <img 
+            src="./src/assets/forecast.png" 
+            className="w-40" 
+            alt="forecast"
+          />
+          <img 
+            src="./src/assets/about.png" 
+            className="w-40" 
+            alt="about"
+          />
+        </div>
       </main>
 
       {/* Footer */}
