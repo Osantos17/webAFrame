@@ -7,7 +7,7 @@ const LandingPage = () => {
       <header className=" text-white py-4">
         <div className="container mx-auto text-center">
           <img 
-            src="./src/assets/Whitelogo.png" 
+            src="/public/Whitelogo.png" 
             className="my-4 mx-auto w-28 h-28" 
             alt="White Logo"
           />
@@ -41,22 +41,22 @@ const LandingPage = () => {
         </section>
         <div className="flex flex-row justify-between mt-6 mx-12">
           <img 
-            src="./src/assets/map.png" 
+            src="/public/map.png" 
             className="w-40" 
             alt="map"
           />
           <img 
-            src="./src/assets/local.png" 
+            src="/public/local.png" 
             className="w-40" 
             alt="local"
           />
           <img 
-            src="./src/assets/forecast.png" 
+            src="/public/forecast.png" 
             className="w-40" 
             alt="forecast"
           />
           <img 
-            src="./src/assets/about.png" 
+            src="/public/about.png" 
             className="w-40" 
             alt="about"
           />
