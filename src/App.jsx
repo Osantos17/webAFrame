@@ -32,7 +32,7 @@ const LandingPage = () => {
             shared with third parties.
           </p>
           <p className="mt-4 text-white">
-            For any questions, contact us at <a href="mailto:youremail@example.com" className="text-blue-500 underline">youremail@example.com</a>.
+            For any questions, contact us at <a href="mailto:Aframesurfing@gmail.com" className="text-blue-500 underline">Aframesurfing@gmail.com</a>.
           </p>
         </section>
       </main>
