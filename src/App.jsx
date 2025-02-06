@@ -21,8 +21,7 @@ const LandingPage = () => {
         <section className="mb-12">
           <h2 className="text-2xl text-white font-bold mb-4">About</h2>
           <p className='text-white'>
-            A-Frame uses your location to deliver real-time surf conditions and forecasts.
-            We prioritize your privacy and do not collect or store any personal information.
+            A-Frame’s goal is to provide the easiest-to-use surf forecast app. Our 7-day vertical forecast format makes it simple to scroll through and view your favorite surf locations, so you can spend more time planning your next paddle out and less time clicking through multiple pages. We prioritize your privacy and do not collect or store any personal information.
           </p>
         </section>
 
